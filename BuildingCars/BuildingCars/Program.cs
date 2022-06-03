@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace BuildingCars
+namespace Building.Cars
 {
-    class MainClass
+    class Car
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Motor motorChevrolet = new Motor(250);
         }
     }
 }

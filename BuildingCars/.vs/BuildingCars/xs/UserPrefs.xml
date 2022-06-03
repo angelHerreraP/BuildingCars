@@ -2,8 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.BuildingCars FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BuildingCars/Motor.cs">
     <Files>
-      <File FileName="BuildingCars/Program.cs" Line="9" Column="1" />
-      <File FileName="BuildingCars/Motor.cs" Line="52" Column="2" />
+      <File FileName="BuildingCars/Program.cs" Line="9" Column="33" />
+      <File FileName="BuildingCars/Motor.cs" Line="41" Column="65" />
+      <File FileName="BuildingCars/SpeedLimitExceedException.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
