@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{E580ADCD-1F46-457D-844E-19640EACE10A}|Default">
   <MonoDevelop.Ide.ItemProperties.BuildingCars FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BuildingCars/Plane.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BuildingCars/VehicleArea.cs">
     <Files>
-      <File FileName="BuildingCars/Program.cs" Line="9" Column="13" />
-      <File FileName="BuildingCars/Motor.cs" />
-      <File FileName="BuildingCars/SpeedLimitExceedException.cs" />
-      <File FileName="BuildingCars/Accelerate.cs" />
-      <File FileName="BuildingCars/Car.cs" />
-      <File FileName="BuildingCars/Plane.cs" Line="8" Column="14" />
+      <File FileName="BuildingCars/Program.cs" Line="5" Column="21" />
+      <File FileName="BuildingCars/Motor.cs" Line="10" Column="10" />
+      <File FileName="BuildingCars/SpeedLimitExceedException.cs" Line="2" Column="19" />
+      <File FileName="BuildingCars/Accelerate.cs" Line="9" Column="1" />
+      <File FileName="BuildingCars/Car.cs" Line="16" Column="1" />
+      <File FileName="BuildingCars/Plane.cs" Line="18" Column="1" />
+      <File FileName="BuildingCars/Garage.cs" Line="7" Column="10" />
+      <File FileName="BuildingCars/VehicleArea.cs" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
