@@ -3,9 +3,12 @@ namespace BuildingCars
 {
     class Plane
     {
-        public Plane()
-        {
-            ∑
+
+        public Plane(int amountOfWheels, int amountOfWing, double width, double height)
+        {   
+            double area = width * height;
+
         }
+
     }
 }
