@@ -8,11 +8,10 @@ namespace BuildingCars
             MaxSpeed = maxSpeed;
         }
 
-        public string Brand { get; set; }
         public double CurrentSpeed { get; set; }
         public double MaxSpeed { get; set; }
 
-        public void Acelerar(int addSpeed)
+        public void Accelerate(int addSpeed)
         {
             if (addSpeed + CurrentSpeed <= MaxSpeed)
             {

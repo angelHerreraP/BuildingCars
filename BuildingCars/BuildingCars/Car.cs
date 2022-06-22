@@ -1,23 +1,38 @@
 ﻿using System;
+
+
 namespace BuildingCars
 {
-    public class Car
+    [Serializable]
+    public class Car: IVehicle
     {
-        public Car( int amountOfDoors, double width, double height)
+        public override string ToString()
         {
-            CarHeight = height;
-            CarWidth = width;
-            VehicleArea CarArea = new VehicleArea();
-            //Deben llamarse en contructores
-            area = CarArea.GetArea(35.2, 65.3);
+            return "Car" +test;
         }
 
-        double area;
-        public object AmountOFDoors { get; set; }
-        public object CarWidth { get; set; }
-        public object CarHeight { get; set; }
+        public string test { get; set; }
+        //private int amountOfWheels;
+        //int IVehicle.AmountOfWheels { get => amountOfWheels; set => amountOfWheels = value; }
 
+        //Cambiar Todo
+        int IVehicle.Motor(int amountOfmotors) => amountOfmotors;
 
+        int IVehicle.DoorNumber(int vehicleDoors)
+        {
+            return vehicleDoors;
+        }
+
+        int IVehicle.SerialNumber(int vehicleSerialNumber)
+        {
+            return vehicleSerialNumber;
+        }
         
+        double IVehicle.VehicleDimensions(double height, double width)
+        {
+            double carArea = height * width;
+            return carArea;
+        }
+
     }
 }

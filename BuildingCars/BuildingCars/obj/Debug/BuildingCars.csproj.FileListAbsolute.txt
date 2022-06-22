@@ -1,2 +1,6 @@
 /Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/obj/Debug/BuildingCars.csproj.AssemblyReference.cache
 /Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/obj/Debug/BuildingCars.csproj.CoreCompileInputs.cache
+/Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/bin/Debug/BuildingCars.exe
+/Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/bin/Debug/BuildingCars.pdb
+/Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/obj/Debug/BuildingCars.exe
+/Users/angelh/Desktop/BuildingCars/BuildingCars/BuildingCars/obj/Debug/BuildingCars.pdb
